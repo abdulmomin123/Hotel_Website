@@ -35,13 +35,13 @@
   border-radius: 5px;
   cursor: pointer;
   outline: none;
-  transition: color, background 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn:hover {
   color: #333;
   background: #f7c08a;
-  box-shadow: 0px 5px 1.5rem black;
+  box-shadow: 0px 5px 1.5rem rgba(0, 0, 0, 0.5);
 }
 
 .btn-light {
@@ -163,7 +163,7 @@ p {
 
 #showcase .showcase-content {
   color: #fff;
-  padding-top: 170px;
+  padding: 170px 0 30px 0;
   text-align: center;
 }
 
